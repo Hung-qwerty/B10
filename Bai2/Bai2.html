@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 2</title>
+</head>
+<body>
+    <link rel="stylesheet" href="cssBai2.css">
+    <div class="menu">
+        <button class="menu-btn" onclick="toggleDropdown()">Thiết kế web</button>
+        <div class="dropdown" id="myDropdown">
+          <a href="#">HTML</a>
+          <a href="#">CSS</a>
+          <a href="#">Javascript</a>
+        </div>
+      </div>
+      <script>
+        function toggleDropdown() {
+    var dropdown = document.getElementById("myDropdown");
+    dropdown.style.display = dropdown.style.display === "block" ?"none" : "block" ;  }
+
+  
+      </script>
+</body>
+</html>

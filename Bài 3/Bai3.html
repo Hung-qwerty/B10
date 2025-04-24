@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giới thiệu bản thân</title>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <link rel="stylesheet" href="cssBai33.css">
+  <nav class="top-nav">
+    <a href="#gioi-thieu">Giới thiệu</a>
+    <a href="#so-thich">Sở thích</a>
+    <a href="#ban-than">Bản thân</a>
+  </nav>
+
+  <section id="gioi-thieu" class="section" data-aos="fade-up">
+    <div class="intro-container">
+      <div class="intro-image">
+        <img src="img/anhhung.jpg" alt="Ảnh cá nhân" />
+      </div>
+      <div class="intro-text">
+        <h1>Hello</h1>
+        <p><strong>Mình tên là:</strong> Nguyễn Việt Hùng</p>
+        <p>Đến từ cao nguyên Mộc Châu</p>
+        <p>19 tuổi, là sinh viên năm nhất tại HNMU, chuyên ngành CNTT</p>
+        <p>Hiện là kỹ thuật viên máy tính tại Vietcom PC</p>
+        <a href="https://www.facebook.com/profile.php?id=100036764920611" target="_blank">Facebook của mình</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="section" id="so-thich" data-aos="fade-up">
+    <div class="box1">
+      <h2>Sở thích</h2>
+      <p>Mình đa di năng và có rất nhiều sở thích như:</p>
+      <ul>
+        <li>Võ thuật</li>
+        <li>Thể thao mạo hiểm</li>
+        <li>Làm đồ thủ công</li>
+        <li>Setup góc máy tính</li>
+        <li>Yêu thích công nghệ, máy tính và chế tạo</li>
+      </ul>
+    </div>
+    <h3 data-aos="fade-up">Đây là một số thành phẩm mà mình chế tạo:</h3>
+    <div class="video-container" data-aos="fade-up">
+      <video controls src="vid/5784321410565228997.mp4"></video>
+      <video controls src="vid/8165402594496991641.mp4"></video>
+    </div>
+
+    <h3 data-aos="fade-up">Bên cạnh đó là sở thích tự tay làm hoa của mình:</h3>
+    <div class="video-container" data-aos="fade-up">
+      <video controls src="vid/hoa.mp4"></video>
+      <video controls src="vid/hoa2.mp4"></video>
+      <video controls src="vid/hoa3.mp4"></video>
+    </div>
+  </div>
+
+  <div class="section" id="ban-than" data-aos="fade-up">
+    <h3>Thêm một số ảnh và video về mình:</h3>
+    <div class="video-container" data-aos="fade-up">
+      <video controls src="vid/hung.mp4"></video>
+      <video controls src="vid/hung2.mp4"></video>
+      <video controls src="vid/hung3.mp4"></video>
+    </div>
+    <div class="image-gallery" data-aos="fade-up">
+      <img src="img/anh vo.jpg" alt="Ảnh cá nhân">
+      <img src="img/anhlop.jpg" alt="Ảnh cá nhân">
+      <img src="img/anh hung.jpg" alt="Ảnh cá nhân">
+      <img src="img/setup.jpg" alt="Ảnh góc máy">
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+</body>
+</html>

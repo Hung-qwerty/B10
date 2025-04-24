@@ -1,0 +1,122 @@
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+    .top-nav {
+      background-color: #70a2c9;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .top-nav a {
+      color: black;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 10px 15px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+    .top-nav a:hover {
+      background-color: #588bb2;
+    }
+    .section {
+      padding: 100px 20px 40px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .intro-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #70a2c9;
+  border-radius: 20px;
+  padding: 40px;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 40px auto;
+}
+
+.intro-image img {
+  width: 300px;
+  border-radius: 20px;
+  border: 6px solid #0067b8;
+}
+
+.intro-text {
+  color: black;
+  font-size: 18px;
+  max-width: 500px;
+}
+
+.intro-text h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.intro-text a {
+  color: black;
+  text-decoration: underline;
+}
+    .box, .box1 {
+      background-color: #70a2c9;
+      border-radius: 20px;
+      padding: 40px;
+      margin-bottom: 40px;
+      color: black;
+    }
+    .profile-img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 20px;
+      border: 8px solid #0067b8;
+    }
+    .text {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    .video-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    video {
+      width: 300px;
+      border-radius: 10px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .image-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .image-gallery img {
+      width: 300px;
+      border-radius: 15px;
+      transition: transform 0.3s;
+    }
+    .image-gallery img:hover {
+      transform: scale(1.05);
+    }
+    @media (max-width: 600px) {
+      .video-container video, .image-gallery img {
+        width: 100%;
+      }
+    }

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Thêm ảnh động</title>
+</head>
+<body>
+
+<div id="bo">
+  </div>
+
+<button onclick="addnode_img()">Thêm ảnh</button>
+
+<script>
+function addnode_img() {
+  var pt = document.createElement('img');
+  pt.src = 'https://cdn.shopify.com/s/files/1/0271/4550/2785/products/1500x1500_09_a8e8c028-acac-40a9-9ee4-18b210f791aa_1024x1024.jpg?v=1652854736';
+  document.getElementById('bo').appendChild(pt);
+}
+</script>
+</body>
+</html>
