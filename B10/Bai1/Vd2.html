@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Tìm phần tử html bằng  Class Name</h2>
+
+<p>Hello World!</p>
+
+<p class="intro">Này là dòng 1 class tên intro</p>
+<p class="intro">Đây là dòng 2
+
+<p id="demo"></p>
+
+<script>
+var x = document.getElementsByClassName("intro");
+document.getElementById("demo").innerHTML =
+'Dòng đầu tiên (index 0) của class="intro": ' + x[0].innerHTML;
+</script>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <p id="p1">hello</p>
+        <p id="p2">Chào mọi người</p>
+    
+        <button onclick="changenode()">Change Node</button>
+    
+        <script>
+          function changenode() {
+            var node = document.createElement('div');
+            node.innerText = "tung tung tung sahur ";
+    
+            var x = document.getElementById('container');
+            var y = document.getElementById('p2');
+    
+            x.replaceChild(node, y);
+          }
+        </script>
+      </div>
+</body>
+</html>

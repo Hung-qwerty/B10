@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Thêm node trước phần tử</title>
+</head>
+<body>
+
+  <div id="container">
+    <p id="p1">Dòng dầu</p>
+    <p id="p2">Dòng hai</p>
+  </div>
+
+  <button onclick="addnode()">Sahur</button>
+
+  <script>
+    function addnode() {
+      var x = document.createElement('p');
+      x.className = "p3";
+      x.innerText = "tung";
+
+      var cha = document.getElementById('container');
+      var y = document.getElementById('p2');
+      cha.insertBefore(x, y);
+    }
+  </script>
+
+</body>
+</html>
